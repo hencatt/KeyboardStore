@@ -1,0 +1,87 @@
+
+html, body{
+    font-size: 80%;
+    letter-spacing: 0.15em;
+    background-color: #110f16;
+}
+
+#page{
+    max-width: 900px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    /*border: 4px double #000;
+    background-color: #fff9f3;*/
+}
+
+.head{
+    width: 525px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.head h1{
+    font-family: 'saxmono';
+    color: #f9ffff;
+}
+
+#logo{
+    width: 75px;
+}
+
+ul{
+    width: 900px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.dzpics{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.thepic{
+    width: 890px;
+}
+
+li{
+    display: inline;
+    margin: 0px 3em;
+}
+
+p{
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+    color: #e2fffb;
+}
+
+a{
+    color: #e2fffb;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;
+}
+
+#navigation{
+    font-family: 'saxmono';
+    background-color: #143341;
+}
+
+a:hover,a.on{
+    color: #972727;
+    background-color: #d1d6f0;
+    font-weight: bold;
+    border-radius: 7%;
+}
+
+p{
+    font-family: 'recursivem';
+}
